@@ -16,6 +16,7 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://imakus-refresh-leonardo-vasquezs-projects.vercel.app"),
   title: "Imakus Cleaning Solutions | Commercial Cleaning & Detailing Services",
   description: "Professional commercial cleaning and detailing services for businesses across South Florida to North Carolina. OSHA & EPA compliant. Expert staff, advanced equipment.",
   keywords: "commercial cleaning, kitchen detailing, floor maintenance, window cleaning, OSHA compliant, EPA certified, industrial cleaning, South Florida cleaning services",
@@ -23,13 +24,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Imakus Cleaning Solutions | Commercial Cleaning & Detailing Services",
     description: "Professional commercial cleaning and detailing services for businesses across South Florida to North Carolina. OSHA & EPA compliant.",
-    url: "https://imakuscleaning.com",
     siteName: "Imakus Cleaning Solutions",
     images: [
       {
-        url: "https://imakuscleaning.com/og-image.jpg",
-        width: 1200,
-        height: 630,
+        url: "/og-image.png",
+        width: 1920,
+        height: 1080,
       },
     ],
     locale: "en_US",
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Imakus Cleaning Solutions | Commercial Cleaning & Detailing Services",
     description: "Professional commercial cleaning and detailing services for businesses across South Florida to North Carolina.",
-    images: ["https://imakuscleaning.com/og-image.jpg"],
+    images: ["/og-image.png"],
   },
   robots: {
     index: true,

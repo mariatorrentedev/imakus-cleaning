@@ -21,7 +21,7 @@ export const Footer = () => {
           </div>
 
           {/* Quick Links */}
-          <div>
+          <div className="md:justify-self-center pt-5">
             <h4 className="text-lg font-display font-bold mb-4">Quick Links</h4>
             <ul className="space-y-2 font-body">
               <li>
@@ -38,7 +38,7 @@ export const Footer = () => {
           </div>
 
           {/* Contact Info */}
-          <div>
+          <div className="md:justify-self-end pt-5">
             <h4 className="text-lg font-display font-bold mb-4">Get Social</h4>
             <div className="space-y-3">
               <a
