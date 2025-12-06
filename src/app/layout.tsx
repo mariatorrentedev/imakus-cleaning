@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     siteName: "Imakus Cleaning Solutions",
     images: [
       {
-        url: "/og-image.png",
+        url: "/hero-cleaning.png",
         width: 1920,
         height: 1080,
       },
