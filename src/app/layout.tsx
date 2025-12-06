@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Imakus Cleaning Solutions | Commercial Cleaning & Detailing Services",
     description: "Professional commercial cleaning and detailing services for businesses across South Florida to North Carolina.",
-    images: ["/og-image.png"],
+    images: ["/hero-cleaning.png"],
   },
   robots: {
     index: true,
