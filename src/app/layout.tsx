@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     siteName: "Imakus Cleaning Solutions",
     images: [
       {
-        url: "/hero-cleaning.png",
+        url: "/og-image.png",
         width: 1920,
         height: 1080,
       },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Imakus Cleaning Solutions | Commercial Cleaning & Detailing Services",
     description: "Professional commercial cleaning and detailing services for businesses across South Florida to North Carolina.",
-    images: ["/hero-cleaning.png"],
+    images: ["/og-image.png"],
   },
   robots: {
     index: true,

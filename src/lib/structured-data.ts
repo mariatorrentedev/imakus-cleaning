@@ -2,7 +2,7 @@ export const getLocalBusinessSchema = () => ({
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "name": "Imakus Cleaning Solutions",
-  "image": "https://imakuscleaning.com/og-image.jpg",
+  "image": "https://imakuscleaning.com/og-image.png",
   "@id": "https://imakuscleaning.com",
   "url": "https://imakuscleaning.com",
   "telephone": "786-571-7725",
