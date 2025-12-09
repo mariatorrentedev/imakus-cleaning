@@ -7,7 +7,7 @@ const services = [
   {
     title: "Commercial Kitchen Detailing",
     description: "Deep cleaning and sanitization of commercial kitchens, ensuring OSHA and EPA compliance for food safety standards.",
-    image: "/images/imakus-cleaning-2.jpg",
+    image: "/images/commercial-kitchen-detailing-imakus.png",
   },
   {
     title: "Floor Maintenance",
