@@ -69,7 +69,7 @@ export const Contact = () => {
               className="group shimmer-button"
               asChild
             >
-              <a href="mailto:steam@imakus.com" aria-label="Book a visit today with Imakus Cleaning Solutions">
+              <a href="mailto:steam@imakus.com" aria-label="Book a visit today with Imakus Cleaning Solutions" data-gtm-cta="book-a-visit-today" data-gtm-location="contact-section">
                 Book a Visit Today
                 <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
               </a>

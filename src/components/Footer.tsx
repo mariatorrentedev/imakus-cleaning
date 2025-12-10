@@ -34,6 +34,11 @@ export const Footer = () => {
                   Book a Visit
                 </a>
               </li>
+              <li>
+                <a href="tel:+17864174173" className="text-white/70 hover:text-accent transition-colors">
+                  Call for a FREE Assessment
+                </a>
+              </li>
             </ul>
           </div>
 

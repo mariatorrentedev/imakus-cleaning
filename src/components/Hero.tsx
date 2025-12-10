@@ -104,7 +104,7 @@ export const Hero = () => {
               className="group"
               asChild
             >
-              <a href="mailto:steam@imakus.com" aria-label="Book a visit with Imakus Cleaning Solutions">
+              <a href="mailto:steam@imakus.com" aria-label="Book a visit with Imakus Cleaning Solutions" data-gtm-cta="book-a-visit" data-gtm-location="hero-section">
                 Book a Visit
                 <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
               </a>
@@ -114,7 +114,7 @@ export const Hero = () => {
               variant="outline-light"
               asChild
             >
-              <a href="#services" aria-label="View our cleaning services">Our Services</a>
+              <a href="#services" aria-label="View our cleaning services" data-gtm-cta="our-services" data-gtm-location="hero-section">Our Services</a>
             </Button>
           </div>
 

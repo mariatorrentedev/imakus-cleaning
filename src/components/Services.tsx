@@ -2,6 +2,8 @@
 
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import Image from "next/image";
+import { Button } from "@/components/ui/button";
+import { Phone } from "lucide-react";
 
 const services = [
   {
@@ -22,7 +24,7 @@ const services = [
   {
     title: "Escalator & Surface Detailing",
     description: "Specialized cleaning and maintenance of escalators, walkways, and detailed surface work.",
-    image: "/images/imakus-detailing.jpg",
+    image: "/images/high-dusting-areas-imakus-cleaning.jpeg",
   },
   {
     title: "Deep Floor Restoration",
@@ -50,6 +52,17 @@ export const Services = () => {
           <p className="text-xl text-muted-foreground font-body max-w-3xl mx-auto">
             Comprehensive cleaning solutions tailored for commercial and industrial facilities
           </p>
+          <Button
+            size="xl"
+            variant="hero"
+            className="group mt-6 animate-shadow-pulse hover:animate-none"
+            asChild
+          >
+            <a href="tel:+17864174173" aria-label="Call for a free assessment with Imakus Cleaning Solutions" data-gtm-cta="call-free-assessment" data-gtm-location="services-section">
+            <Phone className="ml-2 h-5 w-5 group-hover:scale-110 transition-transform" />
+              Call for a FREE Assessment
+            </a>
+          </Button>
           <div className="w-24 h-1 bg-gradient-to-r from-accent to-primary mx-auto mt-6" />
         </header>
 

@@ -26,31 +26,38 @@ export const Compliance = () => {
   return (
     <section className="py-24 bg-gradient-to-br from-accent/5 via-accent/10 to-background">
       <div className="container px-6 md:px-12">
+        {/* Section Header */}
+        <header ref={leftRef} className="mb-6">
+          <h2 className={`text-4xl md:text-5xl font-display font-bold leading-tight text-foreground transition-all duration-700 ${leftVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
+            High Areas Dust Removal
+          </h2>
+        </header>
+
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left Content */}
-          <article ref={leftRef} className="space-y-8">
-            <div className={`inline-block px-4 py-2 bg-accent/10 rounded-full transition-all duration-700 ${leftVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-10'}`}>
+          <article className="space-y-8">
+            <div className={`inline-block px-4 py-2 bg-accent/10 rounded-full transition-all duration-700 delay-100 ${leftVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-10'}`}>
               <span className="text-accent font-semibold text-sm uppercase tracking-wide">
                 Compliance & Safety
               </span>
             </div>
 
-            <h2 className={`text-4xl md:text-5xl font-display font-bold leading-tight text-foreground transition-all duration-700 delay-100 ${leftVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-10'}`}>
-              OSHA & EPA Certified Cleaning Standards
-            </h2>
+            <h3 className={`text-4xl  font-display font-bold leading-tight text-foreground transition-all duration-700 delay-150 ${leftVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-10'}`}>
+              OSHA Certified Cleaning Standards
+            </h3>
 
             <p className={`text-lg text-muted-foreground leading-relaxed font-body transition-all duration-700 delay-200 ${leftVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-10'}`}>
               We understand the significance of maintaining cleanliness in facilities that adhere to
               food safety and quality standards. Our team specializes in cleaning to the
               specifications of OSHA and EPA audits, assisting clients in the food production,
-              processing plants, and distribution sectors in ensuring compliance and passing critical
+              processing plants, and distribution sectors ensuring compliance and passing critical
               inspections by strictly adhering to hygiene practices.
             </p>
 
             <div className="space-y-4">
               {[
                 { title: "Food Safety Compliant", desc: "Specialized cleaning for food production and processing facilities", delay: 300 },
-                { title: "EPA Standards", desc: "Environmentally responsible cleaning methods and products", delay: 400 },
+                { title: "DOH Standards", desc: "Environmentally responsible cleaning methods and products", delay: 400 },
                 { title: "OSHA Certified", desc: "Safe working practices ensuring employee and facility safety", delay: 500 }
               ].map((item) => (
                 <div
