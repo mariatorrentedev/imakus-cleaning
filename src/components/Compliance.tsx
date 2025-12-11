@@ -8,6 +8,14 @@ import Image from "next/image";
 const beforeAfterImages = [
   { src: "/images/imakus-improve-air-quality.jpg", alt: "Before and after commercial cleaning - dusty equipment transformed to spotless condition" },
   { src: "/images/imakus-osha-certified.jpg", alt: "Before and after OSHA certified cleaning - industrial equipment restored to pristine condition" },
+  { src: "/images/commercial-tile-floor-grout-cleaning-before-after-imakus.jpg", alt: "Commercial tile floor and grout cleaning before and after - Imakus Cleaning" },
+  { src: "/images/food-service-steam-table-detailing-before-after-imakus.jpg", alt: "Food service steam table detailing before and after - Imakus Cleaning" },
+  { src: "/images/industrial-stairwell-cleaning-before-after-imakus.jpg", alt: "Industrial stairwell cleaning before and after - Imakus Cleaning" },
+  { src: "/images/tile-grout-restoration-before-after-imakus.jpg", alt: "Tile and grout restoration before and after - Imakus Cleaning" },
+  { src: "/images/commercial-kitchen-wall-tile-cleaning-before-after-imakus.jpg", alt: "Commercial kitchen wall tile cleaning before and after - Imakus Cleaning" },
+  { src: "/images/commercial-kitchen-equipment-floor-cleaning-before-after-imakus.jpg", alt: "Commercial kitchen equipment floor cleaning before and after - Imakus Cleaning" },
+  { src: "/images/restroom-tile-floor-deep-cleaning-before-after-imakus.jpg", alt: "Restroom tile floor deep cleaning before and after - Imakus Cleaning" },
+  { src: "/images/industrial-staircase-cleaning-before-after-imakus.jpg", alt: "Industrial staircase cleaning before and after - Imakus Cleaning" },
 ];
 
 export const Compliance = () => {

@@ -2,8 +2,13 @@
 
 import { MapPin } from "lucide-react";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
-import { useState, useRef, useEffect } from "react";
+import { useState, useRef, useEffect, useSyncExternalStore } from "react";
+
 import dynamic from "next/dynamic";
+
+// Custom hook for client-side mounting detection without useEffect setState
+const emptySubscribe = () => () => {};
+const useIsMounted = () => useSyncExternalStore(emptySubscribe, () => true, () => false);
 
 // Dynamic import for Leaflet to avoid SSR issues
 const MapContainer = dynamic(
@@ -38,15 +43,17 @@ const areas = [
   { name: "Charlotte", lat: 35.2271, lng: -80.8431 },
 ];
 
+// Marker interface for type safety
+interface MarkerRef {
+  openTooltip: () => void;
+  closeTooltip: () => void;
+}
+
 export const ServiceAreas = () => {
   const { ref, isVisible } = useScrollAnimation({ threshold: 0.2 });
   const [hoveredArea, setHoveredArea] = useState<string | null>(null);
-  const [isMounted, setIsMounted] = useState(false);
-  const markerRefs = useRef<Map<string, any>>(new Map());
-
-  useEffect(() => {
-    setIsMounted(true);
-  }, []);
+  const isMounted = useIsMounted();
+  const markerRefs = useRef<Map<string, MarkerRef>>(new Map());
 
   useEffect(() => {
     markerRefs.current.forEach((marker, name) => {
