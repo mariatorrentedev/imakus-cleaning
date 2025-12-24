@@ -15,7 +15,6 @@ const beforeAfterImages = [
   { src: "/images/commercial-kitchen-wall-tile-cleaning-before-after-imakus.jpg", alt: "Commercial kitchen wall tile cleaning before and after - Imakus Cleaning" },
   { src: "/images/commercial-kitchen-equipment-floor-cleaning-before-after-imakus.jpg", alt: "Commercial kitchen equipment floor cleaning before and after - Imakus Cleaning" },
   { src: "/images/restroom-tile-floor-deep-cleaning-before-after-imakus.jpg", alt: "Restroom tile floor deep cleaning before and after - Imakus Cleaning" },
-  { src: "/images/industrial-staircase-cleaning-before-after-imakus.jpg", alt: "Industrial staircase cleaning before and after - Imakus Cleaning" },
 ];
 
 export const Compliance = () => {
